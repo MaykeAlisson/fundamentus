@@ -9,7 +9,10 @@ gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'mysql2', '~> 0.5'
 gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'bcrypt', '~> 3.1.7'
 
+# Auth
+gem 'jwt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
