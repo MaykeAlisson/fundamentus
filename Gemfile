@@ -11,9 +11,6 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bcrypt', '~> 3.1.7'
 
-# Auth
-gem 'jwt'
-
 # Cros
 gem 'rack-cors', '~> 1.1.1'
 
