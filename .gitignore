@@ -27,4 +27,4 @@
 /config/master.key
 
 devops/.mysql
-.env
+/config/local_env.yml
