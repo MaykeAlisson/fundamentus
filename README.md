@@ -1,24 +1,12 @@
-# README
+## Fundamentus
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Serviço responsavel por salvar as analises fundamentais do usuario
 
-Things you may want to cover:
+****
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+###### Feature
+- [ ] Crud Ativos
+- [ ] Receber nota do ativo por fila - RabbitMQ-Consumir
+- [ ] Schedule para buscar informaçoes de ativos em portais - (Request api / schedule)
+- [ ] Publicar noticias ativo e mercado em fila - RabbitMQ-Publish
+- [ ] Cache na busca de ativos - Redis (Criar cache com tempo)
